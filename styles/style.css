@@ -1,0 +1,466 @@
+/*Body*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/*Main Panels*/
+
+.panel {
+    background-color: #5e83af;
+    border: solid black;
+}
+
+.sup,
+.inf {
+    width: 710px;
+    height: 400px;
+    border: solid black;
+}
+
+.mid {
+    width: 710px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+/*Superior panel*/
+
+.sup {
+    border-radius: 80px 80px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Cams*/
+
+.sup-cam {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-radius: 80px 80px 10px 10px;
+}
+
+.sphere {
+    background-color: #5e83af;
+    border: solid black 1px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    box-shadow: 2px 2px 2px #2c374d;
+}
+
+.cams {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.camBig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    border: solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.inside-camB {
+    background-color: rgb(48, 45, 45);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.camSmall {
+    background-color: rgb(37, 37, 37);
+    border: solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+
+/*Speakers and Screen*/
+
+.main-sup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+}
+
+
+/*Speakers*/
+
+.holes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    gap: 4px;
+    position: relative;
+}
+
+.holeH {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+}
+
+.holeV {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+}
+
+.hole {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(39, 37, 37);
+    gap: 2px;
+}
+
+
+/*Screen Superior*/
+
+.screen-border {
+    width: 70%;
+    height: 120%;
+    margin-bottom: -60px;
+    border-radius: 10px 10px 5px 5px;
+    border: solid black;
+    background-color: #5a708b;
+}
+
+.screen-sup {
+    width: 95%;
+    height: 80%;
+    margin: 10px auto;
+    background-color: grey;
+}
+
+.screen-image {
+    height: 100%;
+    width: 100%;
+    border: solid black;
+}
+
+
+/*Middle Panel*/
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 -5px 5px #2c374d;
+}
+
+.middle-line {
+    height: 100%;
+    width: 2px;
+    background-color: #1c1c1d;
+    margin: 0 60px;
+}
+
+
+/*Inferior Panel*/
+
+.inf {
+    display: flex;
+    border-radius: 0px 0px 80px 80px;
+    margin-top: -10px;
+    box-shadow: 0px -5px 5px #2c374d;
+}
+
+
+/*Left part*/
+
+.part-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 90%;
+}
+
+
+/*Stick controller*/
+
+.joy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background-color: #5e83af;
+    border: solid rgb(68, 66, 66);
+    border-radius: 50%;
+}
+
+.sphere-joy {
+    height: 75px;
+    width: 75px;
+    background-color: #5a708b;
+    border: solid black;
+    border-radius: 50%;
+    box-shadow: 5px 5px 50px #2c374d;
+}
+
+
+/*Cross controller*/
+
+.cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -80px;
+}
+
+.lineH {
+    display: flex;
+    position: absolute;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.line1 {
+    background-color: #2e3a52;
+    border-radius: 5px;
+    width: 45px;
+    height: 25px;
+    padding: 2.5px;
+}
+
+.inside-cross1 {
+    width: 15px;
+    height: 2px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: azure;
+}
+
+.lineV {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.line2 {
+    background-color: #2e3a52;
+    border-radius: 5px;
+    width: 25px;
+    height: 45px;
+}
+
+.inside-cross2 {
+    width: 2px;
+    height: 15px;
+    margin-top: 18px;
+    margin-left: 12px;
+    background-color: rgb(210, 214, 214);
+}
+
+
+/*Screen*/
+
+.screen-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #2d3136 2px;
+    gap: 20px;
+    width: 70%;
+    height: 100%;
+    border-radius: 0 0 30px 30px;
+    box-shadow: -5px -5px 10px #2c374d;
+}
+
+.screen-inf {
+    background-color: #5a708b;
+    width: 95%;
+    height: 100%;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.screen-inf img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Home button*/
+
+.button-home {
+    display: flex;
+    background-color: #2c374d;
+    border: solid rgb(63, 63, 63) 1px;
+    border-radius: 20px;
+    width: 45px;
+    height: 25px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.button-home img {
+    margin: auto;
+    height: 85%;
+}
+
+
+/*Right part*/
+
+.part-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+}
+
+
+/*Superior right*/
+
+.stick-cam {
+    width: 100%;
+    height: 20%;
+    background-color: #5e83af;
+}
+
+.sphere-right {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: rgb(179, 175, 175);
+    border: solid #2d3136;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+
+/*Main buttons*/
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40%;
+    width: 100%;
+}
+
+.buttonH {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.buttonV {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: solid #1c1c1d;
+    border-radius: 50%;
+    background-color: #485775;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.button-X {
+    color: rgb(24, 24, 219);
+}
+
+.button-Y {
+    color: rgb(19, 158, 19);
+}
+
+.button-A {
+    color: rgb(197, 28, 28);
+}
+
+.button-B {
+    color: rgb(197, 197, 18);
+}
+
+
+/*Start-select buttons*/
+
+.start-select {
+    position: relative;
+    height: 40%;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.btn-start {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #485775;
+    border: solid #2d3136;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.btn-select {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #485775;
+    border: solid #2d3136;
+    box-shadow: 5px 5px 10px #2c374d;
+}
+
+.start {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: #485775;
+}
+
+.select {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: #485775;
+}
